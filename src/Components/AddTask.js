@@ -5,6 +5,13 @@ const AddTask = ({ onAdd }) => {
     const [day, setDay] = useState('')
     const [reminder, setReminder] = useState(false)
 
+    // const [form, setForm] = useState({ text: '', day: '', reminder: false });
+
+    // const handleChangeForm = (e) => {
+    //     const value = e.target.name === 'reminder' ? e.currentTarget.checked : e.target.value;
+    //     setForm({ ...form, [e.target.name]: value })
+    // };
+
     const onSubmit = (e) => {
         e.preventDefault()
 
